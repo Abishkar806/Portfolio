@@ -12,7 +12,7 @@ function Works() {
     
       <section id='works'>
         <h2 className='workstitle'> My Portfolio</h2>
-        <span className='worksDesc'>I takep pride in paying attention to the smallest details and making sure that my work in pixel perfect. I excited to bring my  skills and experience to help business achieve their goods and create a strong online presence.</span>
+        <span className='worksDesc'>I takep pride in paying attention to the smallest details and making sure that my work in pixel perfect. I excited to bring my  skills and experience to help business achieve their goods and create a strong online presence.<br/></span>
         <div className='worksImgs'>
             <img src={image1} alt='work1' className='worksImg' />
             <img src={image2} alt='work2' className='worksImg'/>
