@@ -1,0 +1,59 @@
+#works{
+    margin: 0 auto;
+    min-height: calc(100vh-4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;            
+    justify-content: center;    
+    text-align: center;
+    padding: 0 1rem;
+
+
+}
+.workstitle{
+    margin: 1rem 0;
+    font-size: 3rem;
+    
+}
+.worksDesc{
+    font-size: 1rem;
+    font-weight: 300;
+
+
+}
+.worksImgs{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+    width: 100vw;
+    max-width: 65rem;
+    gap: 16px;
+
+}.worksImg {
+    width: 500px; /* Adjust the width to your desired size */
+    height: auto; /* Keep the aspect ratio */
+    object-fit: cover; /* Ensure the image covers the specified area */
+    border-radius: 8px; /* Optional: add rounded corners */
+    transition: transform 0.3s ease;
+}
+.workBtn{
+    margin: 3rem 0;
+    padding: 0.5rem 2.5rem;
+    border: none;
+    border-radius: 2rem; 
+    background: white;
+    font: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media  screen and(max-width:585px) {
+
+    .worksImg{
+        height: 48vw;
+    }
+    
+}
